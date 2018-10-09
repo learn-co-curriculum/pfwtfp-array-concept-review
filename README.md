@@ -72,7 +72,7 @@ by age from youngest to oldest:
 > is used by working with the `Array` class.
 
 ```ruby
-[ "Baby Shark", "Mama Shark", "Papa Shark", "Grandma Shark", "Grandpa Shark" ]
+shark_family = [ "Baby Shark", "Mama Shark", "Papa Shark", "Grandma Shark", "Grandpa Shark" ]
 ```
 
 ## Recognize That Array Elements Can Be Accessed Through Bracket-Notation
@@ -104,13 +104,14 @@ Ruby has two primary paths for creating `Array`s from scratch:
 
 ### Array Literal Syntax
 
-Because showing arrays with brackets is so handy, Ruby added the ability to
-_create_ arrays by simply typing this naturally-readable display content.
-"Literal" here means "readable" like the word "literature" or "literacy." It's
-creating an `Array` by "reading it in."
+Because reading arrays as lists of elements separated by `,` and enclosed by
+`[]` is so intuitive, Ruby added the ability to _create_ `Array`s by entering
+the output in _literally_. An `Array` [Literal][literal] is a list of elements,
+separated by `,` and, you guessed it, enclosed by `[]`.
 
-The following code creates an `Array` and is the most common way to create
-`Array`s from scratch.
+The following code creates an `Array` and assigns it to the variable name
+`shark_family`. **_This is the most common way to create `Array`s from
+scratch._**
 
 ```ruby
 shark_family = [ "Baby Shark", "Mama Shark", "Papa Shark", "Grandma Shark", "Grandpa Shark" ]
@@ -166,13 +167,21 @@ toolbox.
 
 ## Conclusion
 
-In this lesson, we learned about the data structure `Array`. From iPhone to Java
-to Python, nearly every programming language has something like an `Array`.
-Arrays are composed of _elements_ which are accessed by an _index_. Indexes
-move upward from 0. Arrays are often displayed in programming documentation in
-_array literal syntax_ which is brackets (`[]`) filled with _elements_
-separated by `,`s. Array literal syntax can also be used to create Arrays. A
-lesser-used, but very useful, tool for creating `Array`s is the `Array.new`
-method of Ruby.
+In this lesson, we learned about the data structure `Array`. From iPhone to
+Java to Python, nearly every programming language has something like an
+`Array`.  Arrays are composed of _elements_ which are accessed by an _index_.
+Indexes move upward from 0. Arrays are often displayed in programming
+documentation in _array literal syntax_ which is brackets (`[]`) filled with
+_elements_ separated by `,`s. Array [literal][] syntax can also be used to
+create Arrays. A lesser-used, but very useful, tool for creating `Array`s is
+the `Array.new` method of Ruby.
+
+## Resources
+
+- [Arrays][]
+- [Literals][]
 
 [array doc]: http://ruby-doc.org/core-2.3.4/Array.html#method-c-new
+[Arrays]: http://ruby-doc.org/core-2.3.4/Array.html
+[literals]: https://docs.ruby-lang.org/en/2.0.0/syntax/literals_rdoc.html
+[literal]: https://docs.ruby-lang.org/en/2.0.0/syntax/literals_rdoc.html
