@@ -25,8 +25,8 @@ programming career.
 3. Recognize array vocabulary word: Index
 4. Recognize array core property: Ordering
 5. View an `Array` in Ruby
-6. Access Array Elements Through Bracket-Notation
-7. Create Arrays
+6. Access Array Elements Through Bracket-Notation in Ruby
+7. Create Arrays in Ruby
 
 ## Recognize Array As a Core Programming Tool
 
@@ -127,7 +127,7 @@ Looking at this output, we can see that there are 5 shark family members. At
 the lowest index, or "index 0" of `SHARK_FAMILY`, is "Baby Shark." At the
 largest index, or "index 4" of `SHARK_FAMILY`, is "Grandpa Shark."
 
-## Access Array Elements Through Bracket-Notation
+## Access Array Elements Through Bracket-Notation in Ruby
 
 We can get a single element by use of _bracket notation_. Programmers use
 _bracket notation_ instead of saying something like "index 2 of
@@ -144,7 +144,7 @@ SHARK_FAMILY[-1] #=> "Grandpa Shark"
 > who are reading documentation understand how something works. You'll see it a
 > lot in technical documentation.
 
-## Create Arrays
+## Create Arrays in Ruby
 
 OK, now that we've learned to work with Ruby `Arrays` that are created for us,
 by printing them out and accessing their elements, let's make our own `Array`.
